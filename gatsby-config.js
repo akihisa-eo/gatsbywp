@@ -9,29 +9,29 @@ module.exports = {
       resolve: 'gatsby-source-wordpress',
       options: {
         // The base url to your WP site.
-        ///baseUrl: 'wpdemo.gatsbycentral.com',
-        baseUrl: 'haniwaman.com/',
-        ///baseUrl: 'wired.jp/',    
-        ///baseUrl: 'demo.local/',    
+        baseUrl: 'wpdemo.gatsbycentral.com',
+        ///baseUrl: 'haniwaman.com/',
+        ///baseUrl: 'info.cookpad.com/',    
+        ///baseUrl: 'demo.com',    
+        baseUrl: 'demo.local',    
         // WP.com sites set to true, WP.org set to false
         hostingWPCOM: false,
         // The protocol. This can be http or https.
         ///protocol: 'https',
-        protocol: 'http',        
+        protocol: 'http',
         // Use 'Advanced Custom Fields' Wordpress plugin
         useACF: false,
         auth: {},
         // Set to true to debug endpoints on 'gatsby build'
         verboseOutput: false,
-        includedRoutes: [
-          "**/categories",
-          "**/posts",
-          "**/pages",
-          "**/media",
-          "**/taxonomies",
-          "**/users",
-          "**/tags",
-        ],        
+///        includedRoutes: [
+///          "**/categories",
+///          "**/posts",
+///          "**/pages",
+///          "**/media",
+///          "**/taxonomies",
+///          "**/tags",
+///        ],
       },
     },
     'gatsby-plugin-sharp',
