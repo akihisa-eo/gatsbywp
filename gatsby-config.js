@@ -13,7 +13,7 @@ module.exports = {
         ///baseUrl: 'haniwaman.com/',
         ///baseUrl: 'info.cookpad.com/',    
         ///baseUrl: 'demo.com',    
-        baseUrl: 'demo.local',    
+        baseUrl: 'demo2.local',    
         // WP.com sites set to true, WP.org set to false
         hostingWPCOM: false,
         // The protocol. This can be http or https.
